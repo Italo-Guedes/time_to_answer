@@ -1,4 +1,6 @@
-'pt-BR':
+pt-BR:
+  messages:
+    teste: aew
   activerecord:
     models:
       admin:
