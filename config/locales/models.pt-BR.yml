@@ -22,5 +22,7 @@ pt-BR:
         email: Email
         created_at: Criado em
         updated_at: Atualizado em
+      subject:
+        description: Descrição
 
       # will translate User attribute "login" as "Handle"
