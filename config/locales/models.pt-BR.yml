@@ -23,6 +23,9 @@ pt-BR:
         created_at: Criado em
         updated_at: Atualizado em
       subject:
+        subject: Assunto
+        description: Descrição
+      question:
         description: Descrição
 
       # will translate User attribute "login" as "Handle"
