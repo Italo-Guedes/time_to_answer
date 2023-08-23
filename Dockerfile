@@ -21,6 +21,9 @@ RUN bundle install
 # Install npm packages (optional, comment this out if not using npm)
 RUN yarn install
 
+# Install bootstrap-growl-ifightcrime (add this line to install the package)
+RUN yarn add bootstrap-growl-ifightcrime
+
 # Copy the application code into the container
 COPY . .
 
