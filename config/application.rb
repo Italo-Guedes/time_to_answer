@@ -32,5 +32,8 @@ module TimeToAnswer
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    #Allow Web Consolose 
+    config.web_console.whitelisted_ips = '172.25.0.1'
   end
 end

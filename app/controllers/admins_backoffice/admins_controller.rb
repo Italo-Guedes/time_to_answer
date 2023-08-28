@@ -4,6 +4,7 @@ before_action :set_admin, only: [:edit, :update, :destroy]
 
 
   def index
+    console
     @admins = Admin.all.page(params[:page])
   end
 
